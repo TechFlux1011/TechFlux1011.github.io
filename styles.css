@@ -1,0 +1,20 @@
+:root {
+    --border-color: #bd76a3;
+    --background-color: #dd7195;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item {
+    background-color: var(--background-color);
+    padding: 10px;
+    border: 10px solid var(--border-color);
+    margin: 5px;
+}
+
+.middle {
+    --background-color: #8ebef3;
+}
