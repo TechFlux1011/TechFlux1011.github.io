@@ -75,8 +75,12 @@ h4{
     font-size: 20px;
     letter-spacing: 2px;
 }
+.content p{
+    color: azure;
+    margin-bottom: 20px;
+}
 .client form{
-    width: 380px;
+    width: 500px;
     max-width: 100%;
     position: relative;
 }
