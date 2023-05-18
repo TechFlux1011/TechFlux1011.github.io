@@ -1,3 +1,16 @@
+<div class="hero">
+    <nav>
+      <h2 class="logo">Portfo<span>lio</span></h2>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <a href="#" class="btn">GitHub</a>
+    </nav>
+
 .h1 {
     text-align: center;
 }
