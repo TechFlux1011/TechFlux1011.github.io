@@ -206,6 +206,7 @@ h5{
     line-height: 27px;
     margin-bottom: 25px;
     text-align: center;
+    justify-self: center;
 }
 .card .button{
     background-color: rgb(255, 39, 93);
