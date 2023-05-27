@@ -6,7 +6,7 @@
 }
 
 .hero{
-    display: flexbox;
+    justify-content: space-between;
     height: 100vh;
     width: 100%;
     background-color: #191919;
@@ -65,6 +65,7 @@ nav ul li a:hover{
 h1{
     color: azure;
     margin: 20px 0px 20px;
+    justify-content: last baseline;
     font-size: 75px;
 }
 h3{
