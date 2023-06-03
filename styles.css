@@ -6,7 +6,7 @@
 }
 
 .hero{
-    justify-content: space-between;
+    justify-content: center;
     height: 100vh;
     width: 100%;
     background-color: #191919;
@@ -18,6 +18,10 @@ nav{
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #191919;
 }
 .logo{
     color: azure;
@@ -129,6 +133,32 @@ h4{
     text-transform: capitalize;
     margin-bottom: 20px;
 }
+.portfolio{
+    width: 100%;
+    padding: 75px 0px;
+    background-color: #191919;
+}
+
+.portfolio h6{
+    color: azure;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 0 auto;
+    padding: auto;
+}
+.portfolio-text{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0px;
+    color: azure;
+    font-size: 18px;
+}
 .about-text h5{
     color: azure;
     letter-spacing: 2px;
@@ -223,4 +253,23 @@ h5{
     border: 2px solid rgb(255, 39, 93);
     cursor: pointer;
 }
-
+.skills{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.skills .box h2{
+    color: azure;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.skills .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 480px;
+    background-color: #191919;
+    padding: 100px 0px;
+}
