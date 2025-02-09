@@ -1,0 +1,88 @@
+/* src/components/About.css */
+
+/* Container styling for the About section */
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: left;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Styling for the header text */
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #667eea;
+    text-align: center;
+  }
+  
+  /* Paragraph styling for improved readability */
+  .about p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Skills section styling */
+  .skills {
+    margin-top: 2rem;
+  }
+  
+  .skills h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #667eea;
+    text-align: center;
+  }
+  
+  .skills ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    list-style-type: none;
+    padding: 0;    
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .skills li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+
+  }
+  
+  .skills li ul {
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+  }
+  
+  .skills li ul li {
+    list-style-type: disc;
+    margin-left: 1rem;
+  }
+  
+  /* Responsive adjustments for smaller devices */
+  @media (max-width: 768px) {
+    .about {
+      padding: 2rem 1rem;
+    }
+    .about h2 {
+      font-size: 2rem;
+    }
+    .about p {
+      font-size: 1rem;
+      line-height: 1.6;
+      padding: 0 1rem;
+    }
+    .skills ul {
+      grid-template-columns: 1fr;
+    }
+  }
+  

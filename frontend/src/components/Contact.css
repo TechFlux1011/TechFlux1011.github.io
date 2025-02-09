@@ -1,0 +1,41 @@
+/* src/components/Contact.css */
+
+.contact {
+    padding: 3rem 1rem;
+    background-color: #f9f9f9;
+    text-align: center;
+    color: #333;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #667eea;
+  }
+  
+  .contact p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact a {
+    color: #764ba2;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .contact a:hover {
+    color: #ff6347; /* tomato accent */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .contact h2 {
+      font-size: 1.75rem;
+    }
+    .contact p {
+      font-size: 1rem;
+    }
+  }
+  
