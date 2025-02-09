@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/TechFlux1011.github.io/frontend/static/css/main.ee4952d6.css",
-    "main.js": "/TechFlux1011.github.io/frontend/static/js/main.9853d70c.js",
-    "index.html": "/TechFlux1011.github.io/frontend/index.html",
-    "main.ee4952d6.css.map": "/TechFlux1011.github.io/frontend/static/css/main.ee4952d6.css.map",
-    "main.9853d70c.js.map": "/TechFlux1011.github.io/frontend/static/js/main.9853d70c.js.map"
+    "main.css": "/TechFlux1011.github.io/frontend/public/static/css/main.ee4952d6.css",
+    "main.js": "/TechFlux1011.github.io/frontend/public/static/js/main.9853d70c.js",
+    "index.html": "/TechFlux1011.github.io/frontend/public/index.html",
+    "main.ee4952d6.css.map": "/TechFlux1011.github.io/frontend/public/static/css/main.ee4952d6.css.map",
+    "main.9853d70c.js.map": "/TechFlux1011.github.io/frontend/public/static/js/main.9853d70c.js.map"
   },
   "entrypoints": [
     "static/css/main.ee4952d6.css",
