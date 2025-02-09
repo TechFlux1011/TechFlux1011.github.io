@@ -1,20 +1,41 @@
 {
-  "name": "techflux1011.github.io",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "frontend",
+  "version": "0.1.0",
+  "homepage": "https://TechFlux1011.github.io/TechFlux1011.github.io/",
+  "private": true,
+  "dependencies": {
+    "cra-template": "1.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "5.0.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TechFlux1011/TechFlux1011.github.io.git"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TechFlux1011/TechFlux1011.github.io/issues"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
-  "homepage": "https://github.com/TechFlux1011/TechFlux1011.github.io/frontend",
-  "description": ""
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
