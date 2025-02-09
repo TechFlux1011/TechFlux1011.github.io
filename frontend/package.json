@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://TechFlux1011.github.io/TechFlux1011.github.io/",
+  "homepage": "https://github.com/TechFlux1011/TechFlux1011.git",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
