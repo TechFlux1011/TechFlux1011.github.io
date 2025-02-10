@@ -5,13 +5,14 @@
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  background-color: #282c34;
 }
 
 /* Main container to limit width and center content */
 main {
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
 }
 
 /* Footer styling */

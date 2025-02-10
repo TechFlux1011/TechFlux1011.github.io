@@ -2,10 +2,10 @@
 
 /* Container styling for the About section */
 .about {
-    max-width: 800px;
+    /* width: 100vw; */
     margin: 0 auto;
     padding: 3rem 1rem;
-    background-color: #f9f9f9;
+    background-color: #282c34;
     color: #333;
     text-align: left;
     font-family: 'Segoe UI', sans-serif;
@@ -18,6 +18,14 @@
     color: #667eea;
     text-align: center;
   }
+
+  .about-container {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    /* border: 1px solid #ddd; */
+    border-radius: 1.3rem;
+    padding: 1rem;
+  }
   
   /* Paragraph styling for improved readability */
   .about p {
@@ -27,13 +35,27 @@
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+    
   }
   
   /* Skills section styling */
   .skills {
     margin-top: 2rem;
   }
+
+  .skills-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #667eea;
+    text-align: center;
+  }
   
+  #title {
+    font-size: 1.5rem;   
+    text-align: center;
+    /* min-width: 364px; */
+  }
+
   .skills h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -45,27 +67,35 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
+    
     list-style-type: none;
-    padding: 0;    
+    padding: 0; 
+    /* width: 100%; */
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
   }
   
   .skills li {
+    display: grid;
     background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    /* border: 1px solid #ddd; */
+    box-shadow: 10px #764ba2;
+    border-radius: 1.3rem;
     padding: 1rem;
-
+    font-size: 1rem;
+    text-align: left;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    
   }
   
   .skills li ul {
     margin-top: 0.5rem;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
   }
   
   .skills li ul li {
-    list-style-type: disc;
-    margin-left: 1rem;
+    list-style-type: none;
+    /* margin-left: 1rem; */
   }
   
   /* Responsive adjustments for smaller devices */

@@ -6,6 +6,8 @@ const About = () => {
   return (
     <section id="about" className="about">
       <h2>About Marshall</h2>
+      <div className='about-container'> 
+
       <p>
         I’m a dedicated and innovative software developer with a passion for crafting scalable, high-performance web applications.
         With hands-on experience in modern technologies like React, Node.js, and a suite of other cutting-edge tools,
@@ -23,12 +25,12 @@ const About = () => {
         seeking someone who can drive projects forward while inspiring innovation.
       </p>
       <p>Let’s build the future together.</p>
-
+      </div>
       {/* Skills Section */}
       <section className="skills">
         <h3>Technical Skills</h3>
         <ul>
-          <li>Languages
+          <li id='title'>Languages
             <ul>
               <li>JavaScript</li>
               <li>Python</li>
@@ -36,7 +38,7 @@ const About = () => {
               <li>C#</li>
             </ul>
           </li>
-          <li>Frameworks
+          <li id='title'>Frameworks
             <ul>
               <li>React</li>
               <li>Node.js</li>
@@ -44,7 +46,7 @@ const About = () => {
               <li>.NET Core</li>
             </ul>
           </li>
-          <li>Tools & Technologies
+          <li id='title'>Tools & Technologies
             <ul>
               <li>Git & GitHub</li>
               <li>Docker</li>
